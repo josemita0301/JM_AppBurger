@@ -5,7 +5,7 @@
              x:Class="JM_AppBurger.JM_Views.JM_BurgerListPage"
              Title="JM_BurgerListPage">
     <Grid RowDefinitions="*,Auto">
-        <CollectionView x:Name="burgerList" SelectionMode="Single" SelectionChanged="CollectionView_SelectionChanged">
+        <CollectionView x:Name="burgerList" SelectionMode="Single" SelectionChanged="JM_CollectionView_SelectionChanged">
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="models:JM_Burger">
                     <Grid>
