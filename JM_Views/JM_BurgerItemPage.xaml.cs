@@ -37,4 +37,10 @@ public partial class JM_BurgerItemPage : ContentPage
     {
         Shell.Current.GoToAsync("..");
     }
+
+    private void JM_OnDeleteItemClicked(object sender, EventArgs e)
+    {
+        App.BurgerRepo.DeleteItem(Item);
+        Shell.Current.GoToAsync("..");
+    }
 }

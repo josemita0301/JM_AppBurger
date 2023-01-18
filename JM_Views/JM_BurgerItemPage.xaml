@@ -19,6 +19,8 @@ VerticalOptions="StartAndExpand">
                     Clicked="JM_OnSaveClicked" />
             <Button Text="Cancelar"
                     Clicked="JM_OnCancelClicked" />
+            <Button Text="Borrar"
+                    Clicked="JM_OnDeleteItemClicked" />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
