@@ -36,7 +36,6 @@ public partial class JM_BurgerListPage : ContentPage
         JM_Burger jmburger= new JM_Burger();
         jmburger = burgerList.SelectedItem as JM_Burger;
 
-
         await Shell.Current.GoToAsync(nameof(JM_BurgerItemPage), true, new Dictionary<string, object>()
         {
             ["Item"] = jmburger
