@@ -21,7 +21,6 @@ public partial class JM_BurgerItemPage : ContentPage
 
     private void JM_OnCheckBoxCheckedChanged(object sender, CheckedChangedEventArgs e)
     {
-       // _flag = e.Value;
     }
 
     private void JM_OnSaveClicked(object sender, EventArgs e)

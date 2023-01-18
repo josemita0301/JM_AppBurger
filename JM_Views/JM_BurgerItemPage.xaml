@@ -9,17 +9,16 @@
  Spacing="10"
 VerticalOptions="StartAndExpand">
             <Label Text="Nombre" />
-            <Entry x:Name="nameB" Text="{Binding Name}" />
+            <Entry x:Name="JMnameB" Text="{Binding JMName}" />
             <Label Text="Descripción" />
-            <Entry x:Name="descB" Text="{Binding Description}" />
+            <Entry x:Name="JMdescB" Text="{Binding JMDescription}" />
             <Label Text="¿Con queso extra?" />
-            <CheckBox x:Name="check"
-                      CheckedChanged="JM_OnCheckBoxCheckedChanged" />
-            <Button Text="Guardar"
+            <CheckBox x:Name="check" IsChecked="{Binding JMWithExtraCheese}" />
+            <Button Text="JM_Guardar"
                     Clicked="JM_OnSaveClicked" />
-            <Button Text="Cancelar"
+            <Button Text="JM_Cancelar"
                     Clicked="JM_OnCancelClicked" />
-            <Button Text="Borrar"
+            <Button Text="JM_Borrar"
                     Clicked="JM_OnDeleteItemClicked" />
         </VerticalStackLayout>
     </ScrollView>
